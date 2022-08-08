@@ -5,8 +5,8 @@
 [General]
 # > 资源解析器
 resource-parser = https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/dist/sub-store-parser.loon.min.js
-# > IPv6支持（默认关闭）
-ipv6 = false
+# > IPv6支持（默认开启）
+ipv6 = true
 # > 跳过代理
 skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
 # > 旁路隧道
