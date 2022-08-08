@@ -135,6 +135,5 @@ https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, 
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/YouTubeAd.plugin, tag=YouTube去广告, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, enabled=false
 https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.plugin, enabled=false
 [Mitm]
-ca-passphrase = 8G30928Q
-skip-server-cert-verify = false
-hostname =
+enable = false
+skip-server-cert-verify = true
