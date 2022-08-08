@@ -16,6 +16,7 @@ PS A：带CN分流的版本：https://raw.githubusercontent.com/MengYuLianMian/L
 
 PS B：需要更多分流规则请看本文章最底部
 
+PS D：
 ![image](https://user-images.githubusercontent.com/89105781/183342122-a2b7ab88-f148-434b-920c-e3d7f76c7832.png)
 
 # 技巧说明
