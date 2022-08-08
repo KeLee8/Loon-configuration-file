@@ -16,6 +16,14 @@ PS：需要更多分流规则请看本文章最底部
 
 ![image](https://user-images.githubusercontent.com/89105781/183342122-a2b7ab88-f148-434b-920c-e3d7f76c7832.png)
 
+# 技巧说明
+YouTube、Netflix分流中的节点是空的需要您自己手动添加（因为我也不知道你们  最快/解锁  的节点是哪个）
+选择方法如下：1.选择配置 2.选择筛选节点 3.点击你需要的节点即可
+
+![image](https://user-images.githubusercontent.com/89105781/183416476-901b6942-967c-4c29-b287-3f98241fd4fa.png)
+
+![image](https://user-images.githubusercontent.com/89105781/183416650-3eba297f-50bd-4b2d-bcbf-e693e6b55720.png)
+
 # 免责声明
 MengRain 本仓库中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断。
 
