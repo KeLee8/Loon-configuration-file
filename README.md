@@ -9,6 +9,7 @@ Loon的配置文件 纯手工自制 分流更齐 更适合上手
 
 # 使用方法
 点击红色框出的文件后复制全部粘贴至Loon即可（Loon需要以文本格式编辑）
+或者点击此处跳转：https://github.com/MengYuLianMian/Loon-configuration-file-MengRain/blob/main/Loon%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6
 
 PS：需要更多分流规则请看本文章最底部
 
