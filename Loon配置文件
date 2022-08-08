@@ -43,7 +43,6 @@ RU俄罗斯 = select,RU_Filter,img-url = https://raw.githubusercontent.com/Kools
 JP日本 = select,JP_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
 KR韩国 = select,KR_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
 TU土耳其 = select,TU_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Turkey.png
-CN中国 = select,CN_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
 
 [Remote Filter]
 全部_Filte = NodeSelect
@@ -59,7 +58,6 @@ RU_Filter = NameKeyword, FilterKey = "俄罗斯"
 JP_Filter = NameRegex, FilterKey = "(?i)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)"
 KR_Filter = NameRegex, FilterKey = "(?i)(KR|Korea|KOR|首尔|韩|韓)"
 TU_Filter = NameKeyword, FilterKey = "土耳其"
-CN_Filter = NameRegex, FilterKey = "(?i)(中国|CN|国内|China)"
 
 [Rule]
 DOMAIN-KEYWORD,Netflix,Netflix
