@@ -58,6 +58,7 @@ RU_Filter = NameKeyword, FilterKey = "俄罗斯"
 JP_Filter = NameRegex, FilterKey = "(?i)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)"
 KR_Filter = NameRegex, FilterKey = "(?i)(KR|Korea|KOR|首尔|韩|韓)"
 TU_Filter = NameKeyword, FilterKey = "土耳其"
+CN_Filter = NameRegex, FilterKey = "(?i)(中国|CN|国内|China)"
 
 [Rule]
 DOMAIN-KEYWORD,Netflix,Netflix
