@@ -136,6 +136,7 @@ https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugi
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=spotify会员解锁, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, enabled=true
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/YouTubeAd.plugin, tag=YouTube去广告, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, enabled=false
 https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.plugin, enabled=false
+
 [Mitm]
 enable = false
 skip-server-cert-verify = true
