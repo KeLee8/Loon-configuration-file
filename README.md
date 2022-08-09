@@ -46,7 +46,7 @@ MengRain 对任何本仓库中包含的脚本在使用中可能出现的问题�
 # 配置补充
 需要更多分流规则请访问：@blackmatrix7（链接：https://github.com/blackmatrix7/ios_rule_script/tree/master/rule ）
 
-需要插件可访问：@iRingo（链接：https://github.com/VirgilClyne/iRingo/ ）
+需要插件可访问Loon仓库：Loon模块库（链接：https://t.me/cool_scripts/344 ） 或者 @iRingo的仓库（链接：https://github.com/VirgilClyne/iRingo/ ）
 
 机场推荐在TG群（可从频道进群）
 
