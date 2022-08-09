@@ -48,7 +48,7 @@ CN中国 = select,CN_Filter,img-url = https://raw.githubusercontent.com/Koolson/
 [Remote Filter]
 全部_Filte = NodeSelect
 YouTube_Filter = NodeSelect
-Netflix_Filter = NameKeyword,跑路云, FilterKey = "*"
+Netflix_Filter = NameKeyword, FilterKey = "*"
 Disney_Filter = NodeSelect
 telegram_Filter = NodeSelect
 HK_Filter = NameRegex, FilterKey = "(?i)(港|HK|Hong)"
