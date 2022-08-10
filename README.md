@@ -14,6 +14,8 @@ Loon的配置文件 纯手工自制 分流更齐 更适合上手
 
 PS A：带CN分流的版本：https://raw.githubusercontent.com/MengYuLianMian/Loon-configuration-file-MengRain/main/Loon配置文件（带CN版）
 
+PS B：无模块纯享版：https://raw.githubusercontent.com/MengYuLianMian/Loon-configuration-file-MengRain/main/Loon%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%EF%BC%88%E6%97%A0%E6%A8%A1%E5%9D%97%E7%BA%AF%E5%87%80%E7%89%88%EF%BC%89
+
 PS B：需要更多分流规则请看本文章最底部
 
 PS D：
