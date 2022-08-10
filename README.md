@@ -8,7 +8,7 @@ Loon的配置文件 纯手工自制 分流更齐 更适合上手
 感谢采用我的配置QwQ
 
 # 使用方法（4选一即可）
-点击[PS：E]中红框所框出的文件后复制全部粘贴至Loon即可（Loon需要以文本格式编辑）
+点击[PS：D]中红框所框出的文件后复制全部粘贴至Loon即可（Loon需要以文本格式编辑）
 
 或者复制后方链接在Loon中引用：https://raw.githubusercontent.com/MengYuLianMian/Loon-configuration-file-MengRain/main/Loon配置文件
 
@@ -16,11 +16,9 @@ PS A：带CN分流的版本：https://raw.githubusercontent.com/MengYuLianMian/L
 
 PS B：无模块纯享版：https://raw.githubusercontent.com/MengYuLianMian/Loon-configuration-file-MengRain/main/Loon配置文件（无模块纯净版）
 
-PS C：我在配置中内置了bilibili的换区，但是！！！需要手动设置BoxJS并且在[配置] [订阅规则]中禁用bilibili的Direct（直连）分流
+PS C：需要更多分流规则请看本文章最底部
 
-PS D：需要更多分流规则请看本文章最底部
-
-PS E：
+PS D：
 
 ![image](https://user-images.githubusercontent.com/89105781/183342122-a2b7ab88-f148-434b-920c-e3d7f76c7832.png)
 
