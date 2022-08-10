@@ -117,7 +117,6 @@ https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/skip-pr
 https://raw.githubusercontent.com/VirgilClyne/VirgilClyne/main/modules/ASN/ASN.sgmodule, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/VirgilClyne/main/modules/DNS/DNS.plugin, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/VirgilClyne/main/modules/General/General.plugin, enabled=true
-https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Bili_Auto_Regions.plugin, tag=bilibili自动换区, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/vgtime.plugin, img-url=scribble, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/adsense.plugin, img-url=scribble, enabled=true
 https://github.com/DualSubs/DualSubs/blob/main/plugin/DualSubs.plugin?raw=true, enabled=true
