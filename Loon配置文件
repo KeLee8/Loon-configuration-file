@@ -112,6 +112,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 [Plugin]
 https://github.com/DualSubs/DualSubs/blob/main/plugin/DualSubs.YouTube.plugin?raw=true, enabled=true
 https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/skip-proxy.plugin, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/V2tun.png, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/VirgilClyne/main/modules/ASN/ASN.sgmodule, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/VirgilClyne/main/modules/DNS/DNS.plugin, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/VirgilClyne/main/modules/General/General.plugin, enabled=true
 https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Bili_Auto_Regions.plugin, tag=bilibili自动换区, enabled=true
@@ -128,12 +129,12 @@ https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/AutoPolicy/auto-pol
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/bilibili.plugin, tag=哔哩哔哩去广告, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_4.png, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, tag=定位解锁, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin, tag=Siri解锁, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Weather.plugin, tag=天气解锁, enabled=false
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Weather.plugin, tag=天气解锁, enabled=true
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin, enabled=true
 https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugin, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=spotify会员解锁, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/YouTubeAd.plugin, tag=YouTube去广告, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, enabled=false
-https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.plugin, enabled=false
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/YouTubeAd.plugin, tag=YouTube去广告, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, enabled=true
+https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.plugin, enabled=true
 
 [Mitm]
 enable = false
