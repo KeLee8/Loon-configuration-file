@@ -22,6 +22,8 @@ PS D：
 
 ![image](https://user-images.githubusercontent.com/89105781/183342122-a2b7ab88-f148-434b-920c-e3d7f76c7832.png)
 
+PS：E：Loon配置文件（无模块纯净版）停止更新，仅进行维护
+
 # 技巧说明
 
 Proxy分组是兜底（即所有未分流的链接都走这个，默认按照最快自动选择）
