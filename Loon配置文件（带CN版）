@@ -43,6 +43,10 @@ RU俄罗斯 = select,RU_Filter,img-url = https://raw.githubusercontent.com/Kools
 JP日本 = select,JP_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
 KR韩国 = select,KR_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
 TU土耳其 = select,TU_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Turkey.png
+UK英国 = select,UK_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/UK.png
+IN印度 = select,IN_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/India.png
+DE德国 = select,DE_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Germany.png
+CA加拿大 = select,CA_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Canada.png
 CN中国 = select,CN_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
 
 [Remote Filter]
