@@ -1,4 +1,4 @@
-#MengRain config
+#MengRain - config   (Loon)
 #Date: 2022.08.19
 #Author: MengRain  （我的TG频道：https://t.me/mengyulianmian  可从频道进群交流）
 
@@ -54,10 +54,14 @@ HK_Filter = NameRegex, FilterKey = "(?i)(港|HK|Hong|湾仔|港仔|九龙)"
 TW_Filter = NameRegex, FilterKey = "(?i)(台|TW|Tai|台北|新竹|台中|桃园|台南|高雄|花莲)"
 US_Filter = NameRegex, FilterKey = "(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
 SG_Filter = NameKeyword, FilterKey = "(?i)(新加坡|SG|Singapore)"
+UK_Filter = NameKeyword, FilterKey = "(?i)(英国|UK|伦敦)"
 RU_Filter = NameKeyword, FilterKey = "(?i)(俄罗斯|RU|莫斯科|圣彼得堡|喀山|哈尔科夫|乌法|新西伯利亚|下诺夫哥罗德|沃罗涅什|Russia)"
 JP_Filter = NameRegex, FilterKey = "(?i)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|名古屋|福冈|仙台|京都|Japan)"
 KR_Filter = NameRegex, FilterKey = "(?i)(KR|Korea|KOR|首尔|韩|韓|南韩|南朝鲜|釜山|South Korea)"
 TU_Filter = NameKeyword, FilterKey = "(?i)(土耳其|TU|Turkey)"
+IN_Filter = NameKeyword, FilterKey = "(?i)(印度|IN|IND|孟买|新德里|高知|Republic of India|India)"
+DE_Filter = NameKeyword, FilterKey = "(?i)(德国|DEU|DE|柏林|慕尼黑|汉堡|科隆|Germany)"
+CA_Filter = NameKeyword, FilterKey = "(?i)(加拿大|CA|渥太华)"
 
 [Rule]
 DOMAIN-KEYWORD,Netflix,Netflix
