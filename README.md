@@ -1,5 +1,5 @@
 # 前言
-Loon的配置文件 纯手工自制 分流更齐 更适合上手
+Loon配置文件 纯手工自制 分流更齐 更适合上手
 
 我的TG频道：https://t.me/mengyulianmian
 
