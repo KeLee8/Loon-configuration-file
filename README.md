@@ -56,5 +56,5 @@ MengRain 对任何本仓库中包含的脚本在使用中可能出现的问题�
 
 需要插件（模块）可访问Loon仓库：Loon模块库（链接：https://t.me/cool_scripts/344 ） 或者 @iRingo的仓库（链接：https://github.com/VirgilClyne/iRingo/ ）
 
-机场推荐在TG群（可从频道进群）
+机场推荐在TG群（可从频道进群或者点击文章开头处的链接）
 
