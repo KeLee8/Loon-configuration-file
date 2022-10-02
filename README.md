@@ -22,7 +22,7 @@ PS D：
 
 ![image](https://user-images.githubusercontent.com/89105781/183342122-a2b7ab88-f148-434b-920c-e3d7f76c7832.png)
 
-PS E：Loon配置文件（无模块纯净版）停止更新，仅进行维护
+PS E：无模块纯净版，带CN版 属于DLC所以仅进行维护
 
 # 技巧说明
 
