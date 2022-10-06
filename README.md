@@ -10,7 +10,7 @@ Loon配置文件 纯手工自制 分流更齐 更适合上手
 # 使用方法（4选一即可）
 点击[PS：D]中红框所框出的文件后复制全部粘贴至Loon即可（Loon需要以文本格式编辑）
 
-或者复制后方链接在Loon中引用：https://raw.githubusercontent.com/MengYuLianMian/Loon-configuration-file-MengRain/main/Loon配置文件
+或者复制后方链接在Loon中引用：https://github.com/MengYuLianMian/Loon-configuration-file-MengRain/raw/main/Loon%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6
 
 PS A：带CN分流的版本：https://raw.githubusercontent.com/MengYuLianMian/Loon-configuration-file-MengRain/main/Loon配置文件（带CN版）
 
