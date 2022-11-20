@@ -12,6 +12,10 @@ Loon配置文件 纯手工自制 分流更齐 更适合上手
 
 或者复制后方链接在Loon中引用：https://github.com/MengYuLianMian/Loon-configuration-file-MengRain/raw/main/Loon%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6
 
+在什么地方使用呢？这里
+
+![image](https://user-images.githubusercontent.com/89105781/202908465-dc8de1f5-ae60-4d40-855d-09fa0379649a.png)
+
 PS A：带CN分流的版本：https://raw.githubusercontent.com/MengYuLianMian/Loon-configuration-file-MengRain/main/Loon配置文件（带CN版）
 
 PS B：无模块纯享版：https://raw.githubusercontent.com/MengYuLianMian/Loon-configuration-file-MengRain/main/Loon配置文件（无模块纯净版）
