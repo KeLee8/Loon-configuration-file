@@ -132,7 +132,6 @@ https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/AutoPolicy/auto-pol
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/bilibili.plugin, tag=哔哩哔哩去广告, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_4.png, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, tag=定位解锁, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin, tag=Siri解锁, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Weather.plugin, tag=天气解锁, enabled=true
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin, enabled=true
 https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugin, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=spotify会员解锁, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, enabled=true
