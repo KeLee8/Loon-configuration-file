@@ -1,6 +1,6 @@
 #MengRain - config   (Loon)
 #Date: 2022.08.8
-#最后一次更新于：2022.10.26
+#最后一次更新于：2022.12.10
 #Author: MengRain  （我的TG频道：https://t.me/mengyulianmian  可从频道进群交流）
 
 [General]
@@ -9,7 +9,7 @@ resource-parser = https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/bac
 # > IPv6支持（默认开启）
 ipv6 = true
 # > 跳过代理
-skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com,www.baidu.com, yunbusiness.ccb.com
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com,www.baidu.com,yunbusiness.ccb.com
 # > 旁路隧道
 bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
 # > dns服务器
@@ -17,7 +17,7 @@ dns-server = system,119.29.29.29,114.114.114.114,223.5.5.5
 # > 允许 wifi 访问
 allow-wifi-access = false
 wifi-access-http-port = 7222
-wifi-access-socket5-port = 7221
+wifi-access-socks5-port = 7221
 # > 代理测试网址
 proxy-test-url = http://cp.cloudflare.com/generate_204
 # > 测试超时
@@ -31,11 +31,18 @@ interface-mode = auto
 
 [Proxy Group]
 Proxy = url-test,HK_Filter,TW_Filter,SG_Filter,US_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = paperplane
-Google = url-test,HK_Filter,TW_Filter,US_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+Google = select,Proxy,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+Telegram = load-balance,telegram_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,max-timeout = 3000,algorithm = random,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 YouTube = url-test,YouTube_Filter,url = http://cp.cloudflare.com/generate_204,interval = 300,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-Telegram = url-test,telegram_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 Netflix = url-test,Netflix_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png
 Disney = url-test,Disney_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
+国外流媒体 = select,Proxy,HK香港,TW台湾,SG新加坡,JP日本,KR韩国,US美国,RU俄罗斯,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Asia_Map.png
+国内流媒体 = select,DIRECT,HK香港,TW台湾,JP日本,KR韩国,US美国,SG新加坡,RU俄罗斯,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png
+国外社交平台 = select,Proxy,DIRECT,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,KR韩国,TU土耳其,UK英国,IN印度,DE德国,CA加拿大,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Facebook.png
+国内社交平台 = select,DIRECT,HK香港,TW台湾,US美国,SG新加坡,JP日本,KR韩国,TU土耳其,UK英国,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/QQ.png
+游戏平台 = select,Proxy,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,KR韩国,TU土耳其,UK英国,IN印度,DE德国,CA加拿大,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
+微软服务 = select,Proxy,HK香港,TW台湾,US美国,SG新加坡,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+苹果服务 = select,DIRECT,TU土耳其,JP日本,KR韩国,RU俄罗斯,SG新加坡,US美国,TW台湾,HK香港,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
 HK香港 = url-test,HK_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
 TW台湾 = url-test,TW_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
 US美国 = url-test,US_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
@@ -83,28 +90,28 @@ FINAL,Proxy
 
 [Remote Rule]
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Baidu/Baidu.list, policy=DIRECT, tag=百度, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleProxy/AppleProxy.list, policy=HK香港, tag=苹果代理, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleProxy/AppleProxy.list, policy=苹果服务, tag=苹果代理, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GoogleVoice/GoogleVoice.list, policy=US美国, tag=GV电话, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/iCloud/iCloud.list, policy=DIRECT, tag=iCloud, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/iCloud/iCloud.list, policy=苹果服务, tag=iCloud, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTubeMusic/YouTubeMusic.list, policy=YouTube, tag=YouTube music, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleMusic/AppleMusic.list, policy=DIRECT, tag=Apple音乐, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppStore/AppStore.list, policy=DIRECT, tag=App Store, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleMusic/AppleMusic.list, policy=苹果服务, tag=Apple音乐, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppStore/AppStore.list, policy=苹果服务, tag=App Store, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list, policy=Google, tag=Google, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WeChat/WeChat.list, policy=DIRECT, tag=微信, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Blizzard/Blizzard.list, policy=HK香港, tag=暴雪, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Steam/Steam.list, policy=HK香港, tag=steam, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PayPal/PayPal.list, policy=HK香港, tag=paypal, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Facebook/Facebook.list, policy=HK香港, tag=Facebook, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list, policy=DIRECT, tag=哔哩哔哩, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Weibo/Weibo.list, policy=HK香港, tag=微博, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitter/Twitter.list, policy=HK香港, tag=twitter, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitch/Twitch.list, policy=YouTube, tag=Twitch, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WeChat/WeChat.list, policy=国内社交平台, tag=微信, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Blizzard/Blizzard.list, policy=游戏平台, tag=暴雪, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Steam/Steam.list, policy=游戏平台, tag=steam, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PayPal/PayPal.list, policy=Proxy, tag=paypal, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Facebook/Facebook.list, policy=国外社交平台, tag=Facebook, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list, policy=国内流媒体, tag=哔哩哔哩, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Weibo/Weibo.list, policy=国内社交平台, tag=微博, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitter/Twitter.list, policy=国外社交平台, tag=twitter, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitch/Twitch.list, policy=国外流媒体, tag=Twitch, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Netflix/Netflix.list, policy=Netflix, tag=Netflix, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Disney/Disney.list, policy=Disney, tag=Disney+, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GitHub/GitHub.list, policy=HK香港, tag=GitHub, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GitHub/GitHub.list, policy=Proxy, tag=GitHub, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Discord/Discord.list, policy=HK香港, tag=discord, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list, policy=DIRECT, tag=china, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list, policy=DIRECT, tag=Apple, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list, policy=苹果服务, tag=Apple, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list, policy=YouTube, tag=YouTube, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list, policy=Telegram, tag=Telegram, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, policy=DIRECT, tag=中国大陆A, enabled=true
@@ -116,6 +123,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 [Script]
 
 [Plugin]
+https://raw.githubusercontent.com/bai1zi/shadowrocket-surge-loon-qx/main/WeChat.sgmodule, tag=WeChat去广告, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/WeChat.png, enabled=true
+https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/HistoryPrice.sgmodule, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PostBox_1.png, enabled=true
+https://subweb.s3.fr-par.scw.cloud/Module/embyUnlocked.sgmodule, tag=解锁Emby Premium, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, enabled=true
 
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/YouTube_remove_ads.plugin, enabled=true
 https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/skip-proxy.plugin, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/V2tun.png, enabled=true
@@ -140,3 +150,4 @@ https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.
 [Mitm]
 enable = false
 skip-server-cert-verify = true
+
