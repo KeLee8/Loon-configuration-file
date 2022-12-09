@@ -89,6 +89,12 @@ GEOIP,cn,DIRECT
 FINAL,Proxy
 
 [Remote Rule]
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Whatsapp/Whatsapp.list, policy=国外社交平台, tag=WhatsApp, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/HBO/HBO.list, policy=国外流媒体, tag=HBO, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Bahamut/Bahamut.list, policy=TW台湾, tag=巴哈姆特, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Douyu/Douyu.list, policy=国内流媒体, tag=斗鱼, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/DouYin/DouYin.list, policy=国内流媒体, tag=抖音, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TikTok/TikTok.list, policy=国外流媒体, tag=TikTok, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Baidu/Baidu.list, policy=DIRECT, tag=百度, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppleProxy/AppleProxy.list, policy=苹果服务, tag=苹果代理, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GoogleVoice/GoogleVoice.list, policy=US美国, tag=GV电话, enabled=true
@@ -150,4 +156,3 @@ https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.
 [Mitm]
 enable = false
 skip-server-cert-verify = true
-
