@@ -30,12 +30,12 @@ interface-mode = auto
 [Remote Proxy]
 
 [Proxy Group]
-Proxy = url-test,HK_Filter,TW_Filter,SG_Filter,US_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = paperplane
+Proxy = url-test,全部_Filte,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = paperplane
 Google = select,Proxy,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
-Telegram = load-balance,telegram_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,max-timeout = 3000,algorithm = random,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
-YouTube = url-test,YouTube_Filter,url = http://cp.cloudflare.com/generate_204,interval = 300,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-Netflix = url-test,Netflix_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png
-Disney = url-test,Disney_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
+Telegram = load-balance,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,UK英国,KR韩国,JP日本,url = http://cp.cloudflare.com/generate_204,interval = 600,max-timeout = 3000,algorithm = random,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+YouTube = url-test,Proxy,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,KR韩国,UK英国,url = http://cp.cloudflare.com/generate_204,interval = 300,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+Netflix = url-test,Proxy,HK香港,TW台湾,US美国,SG新加坡,JP日本,KR韩国,TU土耳其,UK英国,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png
+Disney = url-test,Proxy,TW台湾,HK香港,SG新加坡,US美国,JP日本,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
 国外流媒体 = select,Proxy,HK香港,TW台湾,SG新加坡,JP日本,KR韩国,US美国,RU俄罗斯,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Asia_Map.png
 国内流媒体 = select,DIRECT,HK香港,TW台湾,JP日本,KR韩国,US美国,SG新加坡,RU俄罗斯,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png
 国外社交平台 = select,Proxy,DIRECT,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,KR韩国,TU土耳其,UK英国,IN印度,DE德国,CA加拿大,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Facebook.png
@@ -43,25 +43,21 @@ Disney = url-test,Disney_Filter,url = http://cp.cloudflare.com/generate_204,inte
 游戏平台 = select,Proxy,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,KR韩国,TU土耳其,UK英国,IN印度,DE德国,CA加拿大,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
 微软服务 = select,Proxy,HK香港,TW台湾,US美国,SG新加坡,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
 苹果服务 = select,DIRECT,TU土耳其,JP日本,KR韩国,RU俄罗斯,SG新加坡,US美国,TW台湾,HK香港,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
-HK香港 = url-test,HK_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
-TW台湾 = url-test,TW_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
-US美国 = url-test,US_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
-SG新加坡 = url-test,SG_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
-RU俄罗斯 = select,RU_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Russia.png
-JP日本 = select,JP_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
-KR韩国 = select,KR_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
-TU土耳其 = select,TU_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Turkey.png
-UK英国 = select,UK_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
-IN印度 = select,IN_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/India.png
-DE德国 = select,DE_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Germany.png
-CA加拿大 = select,CA_Filter,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Canada.png
+HK香港 = url-test,HK_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+TW台湾 = url-test,TW_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+US美国 = url-test,US_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+SG新加坡 = url-test,SG_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+JP日本 = url-test,JP_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+KR韩国 = url-test,KR_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
+UK英国 = url-test,UK_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
+RU俄罗斯 = url-test,RU_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Russia.png
+TU土耳其 = url-test,TU_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Turkey.png
+IN印度 = url-test,IN_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/India.png
+DE德国 = url-test,DE_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Germany.png
+CA加拿大 = url-test,CA_Filter,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Canada.png
 
 [Remote Filter]
-全部_Filte = NodeSelect
-YouTube_Filter = NodeSelect
-Netflix_Filter = NameKeyword, FilterKey = "*"
-Disney_Filter = NodeSelect
-telegram_Filter = NodeSelect
+全部_Filte = NameRegex, FilterKey = "|"
 HK_Filter = NameRegex, FilterKey = "(?i)(港|HK|Hong|湾仔|港仔|九龙)"
 TW_Filter = NameRegex, FilterKey = "(?i)(台|TW|Tai|台北|新竹|台中|桃园|台南|高雄|花莲)"
 US_Filter = NameRegex, FilterKey = "(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
