@@ -33,9 +33,9 @@ interface-mode = auto
 Proxy = url-test,全部_Filte,url = http://cp.cloudflare.com/generate_204,interval = 600,tolerance = 100,img-url = paperplane
 Google = select,Proxy,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
 Telegram = load-balance,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,UK英国,KR韩国,JP日本,url = http://cp.cloudflare.com/generate_204,interval = 600,max-timeout = 3000,algorithm = random,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
-YouTube = url-test,Proxy,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,KR韩国,UK英国,url = http://cp.cloudflare.com/generate_204,interval = 300,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-Netflix = url-test,Proxy,HK香港,TW台湾,US美国,SG新加坡,JP日本,KR韩国,TU土耳其,UK英国,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png
-Disney = url-test,Proxy,TW台湾,HK香港,SG新加坡,US美国,JP日本,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
+YouTube = select,Proxy,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,KR韩国,UK英国,url = http://cp.cloudflare.com/generate_204,interval = 300,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+Netflix = select,Proxy,HK香港,TW台湾,US美国,SG新加坡,JP日本,KR韩国,TU土耳其,UK英国,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png
+Disney = select,Proxy,TW台湾,HK香港,SG新加坡,US美国,JP日本,url = http://cp.cloudflare.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
 国外流媒体 = select,Proxy,HK香港,TW台湾,SG新加坡,JP日本,KR韩国,US美国,RU俄罗斯,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Asia_Map.png
 国内流媒体 = select,DIRECT,HK香港,TW台湾,JP日本,KR韩国,US美国,SG新加坡,RU俄罗斯,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png
 国外社交平台 = select,Proxy,DIRECT,HK香港,TW台湾,US美国,SG新加坡,RU俄罗斯,JP日本,KR韩国,TU土耳其,UK英国,IN印度,DE德国,CA加拿大,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Facebook.png
