@@ -126,9 +126,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 
 [Plugin]
 https://raw.githubusercontent.com/bai1zi/shadowrocket-surge-loon-qx/main/WeChat.sgmodule, tag=WeChat去广告, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/WeChat.png, enabled=true
-https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/HistoryPrice.sgmodule, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PostBox_1.png, enabled=true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/JD_Price.plugin, tag=历史价格, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PostBox_1.png, enabled=true
 https://subweb.s3.fr-par.scw.cloud/Module/embyUnlocked.sgmodule, tag=解锁Emby Premium, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, enabled=true
-
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/YouTube_remove_ads.plugin, enabled=true
 https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/skip-proxy.plugin, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/V2tun.png, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/vgtime.plugin, img-url=scribble, enabled=true
