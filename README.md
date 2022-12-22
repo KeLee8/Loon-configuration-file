@@ -5,7 +5,6 @@ Loon配置文件 纯手工自制 分流更齐 更适合上手
 
 我的TG交流群：[点击一键加入](https://t.me/mengdelaochao)
 
-我的Twitter：[点击一键关注](https://mobile.twitter.com/mengyulianmian)
 
 感谢采用我的配置QwQ 
 
