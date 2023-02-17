@@ -1,12 +1,7 @@
 # 前言
 Loon配置文件 纯手工自制 分流更齐 更适合上手
 
-我的TG频道：[点击一键关注](https://t.me/mengyulianmian)
-
-我的TG交流群：[点击一键加入](https://t.me/mengdelaochao)
-
-
-感谢采用我的配置QwQ 
+感谢采用配置
 
 # 使用方法（4选一即可）
 点击[PS：D]中红框所框出的文件后复制全部粘贴至Loon即可（Loon需要以文本格式编辑）
